@@ -197,8 +197,8 @@ class ProfileUpdateTest:
                 self.driver.quit()
 
 if __name__ == "__main__":
-    TEST_URL = "Enter desired URL here"
-    TEST_EMAIL = "Enter desired email here"
+    TEST_URL = "Enter URL here"
+    TEST_EMAIL = "Enter email here"
     TEST_PASSWORD = "Enter password here"
     
     test = ProfileUpdateTest(TEST_URL, TEST_EMAIL, TEST_PASSWORD)
